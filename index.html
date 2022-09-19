@@ -19,9 +19,9 @@
         <!-- Section: input -->
         <section title="input">
           <!-- TODO: Buatlah sebuah input bertipe text dengan id todo-input -->
-          <input type="text" placeholder="masukan teks" id="todo-input">
+          <input type="text" placeholder="Masukan teks" id="todo-input">
           <!-- TODO: Buatlah sebuah button dengan id todo-submit -->
-          <input type="button" value="Submit" id="todo-submit">
+          <button class="button" id="todo-submit">Submit</button>
   
         </section>
   
@@ -42,12 +42,14 @@
       let button = document.getElementById('todo-submit');
       let input = document.getElementById('todo-input');
       let output = document.getElementById('todo-output');
-      
+
       // TODO: Buatlah sebuah fungsi dengan nama fnClickHandler
       // Fungsi yang digunakan untuk menambahkan tulisan
       // Jangan ubah cara deklarasi fungsinya, cukup isi saja
+      button.addEventListener("click", fnClickHandler);
+
       function fnClickHandler(toDoItem) {
-        return alert('${}')
+       alert("Hello Boss!");
       }
 
       // TODO: register event onclick / addEventListener untuk button
