@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Fira Sans", sans-serif;
     background: #182747;
   }
 
@@ -29,6 +29,12 @@ body {
   form {
     padding: 0 35px;
     box-sizing: border-box;
+  }
+
+  ul,li {
+    color: black;
+    font-size: 14px;
+    padding: 5px;
   }
 
 
